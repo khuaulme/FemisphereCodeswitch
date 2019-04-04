@@ -13,7 +13,7 @@ exports = function(changeEvent) {
   
   var input = {
       Destination: {
-        ToAddresses: ["superhappyclouddev@gmail.com"]
+        ToAddresses: ["<INSERT YOUR AWS VERIFIED EMAIL>"]
       },
       Message: {
           Body: {
@@ -27,7 +27,7 @@ exports = function(changeEvent) {
               Data:   `New Restaurant Alert! - ${NewRestaurant.name}`
         }
       },
-      Source: "karen.huaulme@gmail.com"
+      Source: "<INSERT YOUR AWS VERIFIED EMAIL>"
   };
   try {
       AWS_SES_Service.SendEmail(input).then(function (result){
