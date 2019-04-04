@@ -1,0 +1,7 @@
+{
+    "id": "5ca4c1cdacd73e90922497c9",
+    "name": "send",
+    "actions": [
+        "ses:SendEmail"
+    ]
+}

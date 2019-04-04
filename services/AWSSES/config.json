@@ -1,0 +1,12 @@
+{
+    "id": "5ca4c1c12e5809e4930193fc",
+    "name": "AWSSES",
+    "type": "aws",
+    "config": {
+        "accessKeyId": "AKIAJLKQZXS2E7D5CX3A"
+    },
+    "secret_config": {
+        "secretAccessKey": "AWS_Secret_Workshop"
+    },
+    "version": 1
+}
