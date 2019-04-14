@@ -3,7 +3,7 @@
     "name": "AWSSES",
     "type": "aws",
     "config": {
-        "accessKeyId": "AKIAJLKQZXS2E7D5CX3A"
+        "accessKeyId": "<YOUR AWS ID>"
     },
     "secret_config": {
         "secretAccessKey": "AWS_Secret_Workshop"
